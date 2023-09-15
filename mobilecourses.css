@@ -1,0 +1,40 @@
+@media only screen and (max-width: 768px) {
+  :root {
+    --main-color-3: #1f0404 !important;
+    --main-color-4: #ffffff !important;
+    --main-color-1: #e2ba09 !important;
+    --main-color-2: #92c026 !important;
+    --main-color-5: #e6e6e6 !important;
+    --main-color-6: #1f8c95 !important;
+    --main-widths: 80% !important;
+    --main-margin: 0 auto !important;
+    --fonts-1: "Montserrat", sans-serif !important;
+    --fonts-2: "Poppins", sans-serif !important;
+    --fonts-3: "Roboto", sans-serif !important;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+  }
+}
+.courses-container div {
+  background-color: var(--main-color-2);
+}
+
+.courses-container img {
+  width: 100%;
+}
+
+.courses-container p {
+  width: 100%;
+  color: var(--main-color-5);
+  padding: 3vh 0;
+  margin: 0 auto;
+  width: 95%;
+  font-family: var(--fonts-1);
+  letter-spacing: ;
+}
